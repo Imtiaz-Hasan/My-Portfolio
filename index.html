@@ -19,19 +19,40 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/media.css" rel="stylesheet">
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
 
 
+
+  <style>
+    i.bx.bxs-quote-alt-left.quote-icon-left {
+      font-size: 30px;
+      color: #12dbfb5c;
+    }
+
+    i.bx.bxs-quote-alt-right.quote-icon-right {
+      font-size: 30px;
+      color: #12dbfb5c;
+    }
+
+    .heros {
+      z-index: 2;
+    }
+  </style>
 </head>
 
 <body>
@@ -58,7 +79,8 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#particles-js" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+          </li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
@@ -73,8 +95,8 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+  <section id="particles-js" class="d-flex flex-column justify-content-center align-items-center hero portfolio section-bg">
+    <div class="heros" data-aos="fade-in" style="position:absolute;">
       <h1 class="">MD IMTIAZ HASAN</h1>
       <p>I'm <span class="typed text-danger" data-typed-items="Web Developer, Professional Researcher"></span></p>
       <a href="assets/CV of IMTIAZ.pdf" target="_blank"><button type="button"
@@ -82,12 +104,13 @@
 
     </div>
 
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about wow fadeInUp">
       <div class="container">
 
         <div class="section-title">
@@ -144,126 +167,125 @@
     </section><!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
+    <section id="facts" class="facts portfolio section-bg">
       <div class="container">
 
-        <div class="section-title text-center">
+        <div class="section-title text-center wow fadeInRight">
           <h3 class="text-center weight-bold">TOTALL WORK </h2>
 
 
         </div>
 
-        <div class="row no-gutters">
+        <div class="row no-gutters ">
 
           <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
 
               <span data-purecounter-start="0" data-purecounter-end="120 " data-purecounter-duration="1"
-                class="purecounter">+</span>
+                class="purecounter counter">120</span>
               <p><strong class="mb-2">Research Done</strong> </p>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="110" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Happy clients </strong> </p>
+
+              <span data-purecounter-start="0" data-purecounter-end="120 " data-purecounter-duration="1"
+                class="purecounter counter">110</span>
+              <p><strong class="mb-2">Happy Client</strong> </p>
             </div>
           </div>
 
-
-          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="33" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Awards</strong> </p>
+
+              <span data-purecounter-start="0" data-purecounter-end="120 " data-purecounter-duration="1"
+                class="purecounter counter">33</span>
+              <p><strong class="mb-2">Awards</strong> </p>
             </div>
           </div>
+
+
+
 
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section>
+    <!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <section id="skills" class="skills portfolio section-bg">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Skills</h2>
-
+        <div class="section-title aos-init wow fadeInLeft" data-aos="fade-up">
+          <h2>Our <strong>Skills</strong></h2>
         </div>
 
         <div class="row skills-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
+          <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
 
-            <div class="progress">
+            <div class="progress wow fadeInUp">
               <span class="skill">HTML <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="width: 100%;"></div>
               </div>
             </div>
 
-            <div class="progress">
+            <div class="progress wow fadeInUp">
               <span class="skill">CSS <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="width: 80%;"></div>
               </div>
             </div>
-            <div class="progress">
-              <span class="skill">Bootstrap<i class="val">90%</i></span>
+
+            <div class="progress wow fadeInUp">
+              <span class="skill">Bootstrap <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="width: 90%;"></div>
               </div>
             </div>
-
-
 
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="progress">
+            <div class="progress wow fadeInUp">
               <span class="skill">JavaScript <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="width: 70%;"></div>
               </div>
             </div>
 
-
-            <div class="progress">
+            <div class="progress wow fadeInUp">
               <span class="skill">PHP <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+                  aria-valuemax="100" style="width: 80%;"></div>
               </div>
             </div>
 
-
-
-            <div class="progress">
+            <div class="progress wow fadeInUp">
               <span class="skill">Photoshop <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
+                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 80%;"></div>
               </div>
             </div>
 
           </div>
-        </div>
 
+        </div>
         <div class="row mt-3">
 
-          <div class="col-12 custom-for-bordrer" data-aos="fade-up">
+          <div class="col-12 custom-for-bordrer wow fadeInUp" data-aos="fade-up">
             <div class="work-box ">
               <header class="heading">PROGRAMMING LANGUAGES</header>
 
@@ -281,9 +303,9 @@
           <!-- start-here -->
 
 
-          <div class="col-12 custom-for-bordrer" data-aos="fade-up">
+          <div class="col-12 custom-for-bordrer wow fadeInUp" data-aos="fade-up">
             <div class="work-box ">
-              <header class="heading" style="">DATABASES</header>
+              <header class="heading">DATABASES</header>
 
 
 
@@ -298,9 +320,9 @@
           <!-- start-here -->
 
 
-          <div class="col-12 custom-for-bordrer" data-aos="fade-up">
+          <div class="col-12 custom-for-bordrer wow fadeInUp" data-aos="fade-up">
             <div class="work-box ">
-              <header class="heading" style="">TOOLS</header>
+              <header class="heading">TOOLS</header>
 
 
 
@@ -317,7 +339,7 @@
           <!-- start-here -->
 
 
-          <div class="col-12 custom-for-bordrer" data-aos="fade-up">
+          <div class="col-12 custom-for-bordrer wow fadeInUp" data-aos="fade-up">
             <div class="work-box ">
               <header class="heading">OPERATING SYSTEMS</header>
 
@@ -334,25 +356,22 @@
 
         </div>
 
-
-
-
-
       </div>
-    </section><!-- End Skills Section -->
+    </section>
+    <!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title wow fadeInRight">
           <h2>Resume</h2>
 
 
 
         </div>
 
-        <div class="row">
+        <div class="row wow fadeInUp">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
@@ -362,7 +381,8 @@
               <p><em>Assignoholic Research and Consultancy</em></p>
               <p class="fs-5">Main activities and responsibilities:</p>
               <ul>
-                <li>I have to do Business Plans, Research paper, Report, Article, Marketing Campaigns, Dissertation, Case Study, Assignment/Coursework, Poster, Presentation and MikroTik Router.</li>
+                <li>I have to do Business Plans, Research paper, Report, Article, Marketing Campaigns, Dissertation,
+                  Case Study, Assignment/Coursework, Poster, Presentation and MikroTik Router.</li>
 
               </ul>
 
@@ -432,7 +452,7 @@
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title wow fadeInLeft">
           <h2>PROJECTS</h2>
           <p>University Projects</p>
         </div>
@@ -440,7 +460,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app">
+          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app wow fadeInUp">
 
             <div class="custom-div">
 
@@ -469,7 +489,7 @@
               </div> -->
 
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app">
+          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app wow fadeInUp">
 
             <div class="custom-div">
 
@@ -498,7 +518,7 @@
               </div> -->
 
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app">
+          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app wow fadeInUp">
 
             <div class="custom-div">
 
@@ -527,7 +547,7 @@
               </div> -->
 
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app">
+          <div class="col-lg-6 col-md-6 col-sm-12 portfolio-item filter-app wow fadeInUp">
 
             <div class="custom-div">
 
@@ -570,43 +590,43 @@
     <section id="services" class="services">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title wow fadeInLeft">
           <h2>Services</h2>
           <p>What I do?</p>
 
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 icon-box wow fadeInUp" data-aos="fade-up">
             <div class="icon"><i class="bi bi-briefcase"></i></div>
             <h4 class="title"><a href="">Landing Page </a></h4>
             <p class="description">On a landing page, include the most pertinent information “above the fold,” which is
               the part of a webpage that is visible before a user starts to scroll... </p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 icon-box wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-card-checklist"></i></div>
             <h4 class="title"><a href="">Full website create</a></h4>
             <p class="description">Full Website is a similar process of creating a website like multipage... </p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 icon-box wow fadeInUp" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
             <h4 class="title"><a href="">E-commerce website </a></h4>
             <p class="description">Ecommerce, also known as electronic commerce or internet commerce where buying and
               selling of goods or services using the internet</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 icon-box wow fadeInUp" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-binoculars"></i></div>
             <h4 class="title"><a href="">Speed optimize </a></h4>
             <p class="description">When someone visits your site, the first impression is all that matters. Page Speed
               is now one of the most important... </p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 icon-box wow fadeInUp" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-brightness-high"></i></div>
             <h4 class="title"><a href="">Bug fixing </a></h4>
             <p class="description">In recent times, there have been problems in the field of bug fixing in the WordPress
               website... </p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6 icon-box wow fadeInUp" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
             <h4 class="title"><a href="">24x7 Support </a></h4>
             <p class="description">Always ready to provide support 24/7 as you need... </p>
@@ -617,83 +637,124 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
 
-        <div class="section-title">
+    <section id="our-testimonial" class="padding portfolio section-bg">
+      <div class="container">
+        <div class="section-title wow fadeInLeft">
           <h2>Testimonials</h2>
           <p>What My Clients Say?
           </p>
         </div>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="testimonials-slider swiper wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <div id="testimonial-slider" class="owl-carousel">
+
+                  <div class="item">
+                    <div class="testimonial-wrapp">
+                      <div class="testimonial-text">
+                        <p class="bottom40"> <i class="bx bxs-quote-alt-left quote-icon-left"></i> He made unlimited
+                          changes as requested, but this took longer than expected and communication wasn't the greatest
+                          - I would still recommend it and am very satisfied with the service. <i
+                            class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                      </div>
+                      <div class="testimonial-photo"><img alt="" src="images/testimonials-1.jpg"></div>
+                      <h4 class="darkcolor">Sam David</h4>
+                      <small class="defaultcolor">Businessman</small>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="testimonial-wrapp"> </span>
+                      <div class="testimonial-text">
+                        <p class="bottom40"> <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          I was concerned that my new website was made live without me having a chance to approve it,
+                          but the
+                          old site was quickly restored and all my requested changes were done very quickly and
+                          accurately.
+                          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                      </div>
+                      <div class="testimonial-photo"><img alt="" src="images/testimonials-2.jpg"></div>
+                      <h4 class="darkcolor">Jams Shah</h4>
+                      <small class="defaultcolor">Businessman</small>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="testimonial-wrapp">
+                      <div class="testimonial-text">
+                        <p class="bottom40"> <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          Mr.Imtiaz is a very good and hard working person. They fulfilled all of my requirements and
+                          even went
+                          beyond what I needed, was always there. Everything is on time,a very fast response time.
+                          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                      </div>
+                      <div class="testimonial-photo"><img alt="" src="images/testimonials-3.jpg"></div>
+                      <h4 class="darkcolor">Zubin Zucker</h4>
+                      <small class="defaultcolor">Businessman</small>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="testimonial-wrapp">
+                      <div class="testimonial-text">
+                        <p class="bottom40"><i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          He made unlimited changes as requested, but this took longer than expected and communication
+                          wasn't
+                          the greatest - I would still recommend it and am very satisfied with the service. <i
+                            class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                      </div>
+                      <div class="testimonial-photo"><img alt="" src="images/testimonials-4.jpg"></div>
+                      <h4 class="darkcolor">David Zucker</h4>
+                      <small class="defaultcolor">Businessman</small>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="testimonial-wrapp">
+                      <div class="testimonial-text">
+                        <p class="bottom40"><i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          He made unlimited changes as requested, but this took longer than expected and communication
+                          wasn't
+                          the greatest - I would still recommend it and am very satisfied with the service. <i
+                            class="bx bxs-quote-alt-right quote-icon-right"></i></p>
+                      </div>
+                      <div class="testimonial-photo"><img alt="" src="images/testimonials-5.jpg"></div>
+                      <h4 class="darkcolor">David Zucker</h4>
+                      <small class="defaultcolor">Businessman</small>
+                    </div>
+                  </div>
 
 
 
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  He made unlimited changes as requested, but this took longer than expected and communication wasn't
-                  the greatest - I would still recommend it and am very satisfied with the service.
 
 
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+
+                </div>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  I was concerned that my new website was made live without me having a chance to approve it, but the
-                  old site was quickly restored and all my requested changes were done very quickly and accurately.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Mr.Imtiaz is a very good and hard working person. They fulfilled all of my requirements and even went
-                  beyond what I needed, was always there. Everything is on time,a very fast response time.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-
-
+            </div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-
       </div>
-    </section><!-- End Testimonials Section -->
+
+    </section>
+    <!--Testimonials Ends-->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title wow fadeInLeft">
           <h2>Contact</h2>
           <p>Request A Quote</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-5 d-flex align-items-stretch custom-font-size">
             <div class="info">
@@ -728,7 +789,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="message.php" method="post" role="form" class="php-email-form">
+            <form method="post" action="send-email.php" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -749,7 +810,7 @@
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <!-- <div class="error-message"></div> -->
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit" name="message_request">Send Message</button></div>
@@ -777,6 +838,10 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -784,11 +849,37 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <!-- <script src="assets/vendor/waypoints/noframework.waypoints.js"></script> -->
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script> -->
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/functions.js"></script>
+
+
+  <script>
+    new WOW().init();
+
+
+  </script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+    });
+
+  </script>
 
 </body>
 

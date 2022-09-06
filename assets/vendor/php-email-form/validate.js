@@ -22,8 +22,8 @@
         return;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
-      thisForm.querySelector('.error-message').classList.remove('d-block');
       thisForm.querySelector('.sent-message').classList.remove('d-block');
+      // thisForm.querySelector('.sent-message').classList.remove('d-block');
 
       let formData = new FormData( thisForm );
 
@@ -71,15 +71,15 @@
         throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
       }
     })
-    .catch((error) => {
-      displayError(thisForm, error);
+    .catch((success) => {
+      displayError(thisForm, success);
     });
   }
 
-  function displayError(thisForm, error) {
+  function displayError(thisForm, success) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.error-message').classList.add('d-block');
+    // thisForm.querySelector('.sent-message').innerHTML = success;
+    thisForm.querySelector('.sent-message').classList.add('d-block');
   }
 
 })();
